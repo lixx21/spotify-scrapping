@@ -63,4 +63,4 @@ if __name__ == "__main__":
     # Read arguments from command line
     args = parser.parse_args()
 
-    scrapping(args.url, args.output)
+    scraping(args.url, args.output)
