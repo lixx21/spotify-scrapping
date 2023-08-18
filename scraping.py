@@ -7,7 +7,7 @@ import argparse
 
 driver = webdriver.Chrome('C:/Users/ASUS/Downloads/chromedriver_win32r') #should use r in the behind of the path
 
-def scrapping(spotify_playlist_url, output_csv):
+def scraping(spotify_playlist_url, output_csv):
     driver.get(spotify_playlist_url)
     driver.implicitly_wait(10) # because this is a dynamic website we need to used this implicitly_wait() function
     time.sleep(3)
